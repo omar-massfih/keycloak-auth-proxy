@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/contributing/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/contributing/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/license/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/license/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/api/endpoints/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/api/endpoints/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/configuration/env/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/configuration/env/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/deployment/container/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/deployment/container/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/deployment/kubernetes/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/deployment/kubernetes/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
     <url>
-         <loc>https://yourusername.github.io/fastapi-reverse-proxy/deployment/openshift/</loc>
+         <loc>https://omar-massfih.github.io/keycloak-auth-proxy/deployment/openshift/</loc>
          <lastmod>2025-03-22</lastmod>
     </url>
 </urlset>
