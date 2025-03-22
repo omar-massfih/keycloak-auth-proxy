@@ -1,4 +1,4 @@
-# **Keycloak Auth Proxy
+# **Keycloak Auth Proxy**
 
 A FastAPI-based Authentication Proxy (Auth Proxy) service that secures backend services using Keycloak authentication. It integrates with a reverse proxy (Traefik, Nginx, or Envoy) to validate requests before forwarding them to backend services. Supports dynamic routing via Kubernetes/OpenShift DNS.
 

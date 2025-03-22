@@ -1,5 +1,5 @@
-site_name: Keycloak Forward Auth
-site_url: https://yourusername.github.io/fastapi-reverse-proxy/
+site_name: Keycloak Auth Proxy
+site_url: https://omar-massfih.github.io/keycloak-auth-proxy/
 theme:
   name: material
   palette:
@@ -20,8 +20,8 @@ theme:
     - navigation.sections
     - content.code.annotate
 
-repo_url: https://github.com/omarmassfih/keycloak-forward-auth
-repo_name: omarmassfih/keycloak-forward-auth
+repo_url: https://github.com/omar-massfih/keycloak-auth-proxy
+repo_name: omar-massfih/keycloak-forward-auth
 edit_uri: edit/main/docs/
 
 nav:
