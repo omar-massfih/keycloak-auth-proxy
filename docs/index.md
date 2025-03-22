@@ -1,6 +1,6 @@
-# Keycloak Forward Auth
+# Keycloak Auth Proxy
 
-A FastAPI-based Forward Authentication (Forward Auth) service that secures backend services using Keycloak authentication. It integrates with a reverse proxy (Traefik, Nginx, or Envoy) to validate requests before forwarding them to backend services. Supports dynamic routing via Kubernetes/OpenShift DNS.
+A FastAPI-based Authentication Proxy (Auth Proxy) service that secures backend services using Keycloak authentication. It integrates with a reverse proxy (Traefik, Nginx, or Envoy) to validate requests before forwarding them to backend services. Supports dynamic routing via Kubernetes/OpenShift DNS.
 
 ## 🚀 Features
 
@@ -19,4 +19,4 @@ A FastAPI-based Forward Authentication (Forward Auth) service that secures backe
 - **Deployment** → Running with Podman, Docker, and Kubernetes
 - **API Reference** → Proxy and authentication endpoints
 
-🔗 **Source Code**: [GitHub Repository](https://github.com/omarmassfih/keycloak-forward-auth)
+🔗 **Source Code**: [GitHub Repository](https://github.com/omar-massfih/keycloak-auth-proxy)
