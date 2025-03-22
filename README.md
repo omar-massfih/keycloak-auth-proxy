@@ -40,6 +40,10 @@ A FastAPI-based Authentication Proxy (Auth Proxy) service that secures backend s
    uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
    ```
 
+## **Helm Chart Deployment**
+You can also deploy the Keycloak Auth Proxy using the official Helm chart:  
+➡️ [keycloak-auth-proxy-chart](https://github.com/omar-massfih/keycloak-auth-proxy-chart)  
+The chart allows easy configuration of image, environment variables, and routing for Kubernetes and OpenShift clusters.
 
 ## **Configuration**
 Set up environment variables in `.env`.
