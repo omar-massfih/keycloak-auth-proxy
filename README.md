@@ -1,6 +1,6 @@
-# **Keycloak Forward Auth**
+# **Keycloak Auth Proxy
 
-A FastAPI-based Forward Authentication (Forward Auth) service that secures backend services using Keycloak authentication. It integrates with a reverse proxy (Traefik, Nginx, or Envoy) to validate requests before forwarding them to backend services. Supports dynamic routing via Kubernetes/OpenShift DNS.
+A FastAPI-based Authentication Proxy (Auth Proxy) service that secures backend services using Keycloak authentication. It integrates with a reverse proxy (Traefik, Nginx, or Envoy) to validate requests before forwarding them to backend services. Supports dynamic routing via Kubernetes/OpenShift DNS.
 
 ## **Features**
 - **Authentication enforcement** with Keycloak  
@@ -20,8 +20,8 @@ A FastAPI-based Forward Authentication (Forward Auth) service that secures backe
 ### **Setup**
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/omarmassfih/keycloak-forward-auth.git
-   cd keycloak-forward-auth
+   git clone https://github.com/omar-massfih/keycloak-auth-proxy.git
+   cd keycloak-auth-proxy
    ```
 
 2. **Install dependencies**
@@ -48,11 +48,8 @@ Set up environment variables in `.env`.
 ```ini
 # Keycloak Configuration
 KEYCLOAK_ISSUER=https://keycloak.example.com/auth/realms/myrealm
-KEYCLOAK_JWKS_URL=https://keycloak.example.com/auth/realms/myrealm/protocol/openid-connect/certs
 KEYCLOAK_CLIENT_ID=my-client-id
 KEYCLOAK_CLIENT_SECRET=my-client-secret
-KEYCLOAK_LOGIN_URL=https://keycloak.example.com/login
-KEYCLOAK_LOGOUT_URL=https://keycloak.example.com/protocol/openid-connect/logout
 KEYCLOAK_SCOPE="openid email profile"
 
 # Service Routing
@@ -69,13 +66,13 @@ ALLOW_HEADERS=Authorization,Content-Type
 
 
 ## **Documentation**
-- **[Configure environment variables](https://omarmassfih.github.io/keycloak-forward-auth/configuration/env/)**  
-- **[Deploy to a container](https://omarmassfih.github.io/keycloak-forward-auth/deployment/container/)**  
-- **[Deploy to OpenShift](https://omarmassfih.github.io/keycloak-forward-auth/deployment/openshift/)**  
-- **[Deploy to Kubernetes](https://omarmassfih.github.io/keycloak-forward-auth/deployment/kubernetes/)**  
-- **[View API endpoints](https://omarmassfih.github.io/keycloak-forward-auth/api/endpoints/)**  
-- **[Contribute to the project](https://omarmassfih.github.io/keycloak-forward-auth/contributing/)**  
-- **[Read the license](https://omarmassfih.github.io/keycloak-forward-auth/license/)**  
+- **[Configure environment variables](https://omar-massfih.github.io/keycloak-auth-proxy/configuration/env/)**  
+- **[Deploy to a container](https://omar-massfih.github.io/keycloak-auth-proxy/deployment/container/)**  
+- **[Deploy to OpenShift](https://omar-massfih.github.io/keycloak-auth-proxy/deployment/openshift/)**  
+- **[Deploy to Kubernetes](https://omar-massfih.github.io/keycloak-auth-proxy/deployment/kubernetes/)**  
+- **[View API endpoints](https://omar-massfih.github.io/keycloak-auth-proxy/api/endpoints/)**  
+- **[Contribute to the project](https://omar-massfih.github.io/keycloak-auth-proxy/contributing/)**  
+- **[Read the license](https://omar-massfih.github.io/keycloak-auth-proxy/license/)**  
 
 
 ## **How It Works**
@@ -116,7 +113,7 @@ ALLOW_HEADERS=Authorization,Content-Type
 
 ## **Contributing**
 PRs are welcome!  
-Before submitting a PR, read the **[contribution guide](https://omarmassfih.github.io/keycloak-forward-auth/contributing/)**.
+Before submitting a PR, read the **[contribution guide](https://omar-massfih.github.io/keycloak-auth-proxy/contributing/)**.
 
 
 ## **License**
@@ -124,6 +121,6 @@ This project is licensed under the **MIT License**.
 
 
 ## **Next Steps**
-- **Set up environment variables** → [Configuration Guide](https://omarmassfih.github.io/keycloak-forward-auth/configuration/env/)  
-- **Deploy the proxy on Kubernetes** → [Kubernetes Deployment](https://omarmassfih.github.io/keycloak-forward-auth/deployment/kubernetes/)  
-- **Run locally in a container** → [Container Setup](https://omarmassfih.github.io/keycloak-forward-auth/deployment/container/)
+- **Set up environment variables** → [Configuration Guide](https://omar-massfih.github.io/keycloak-auth-proxy/configuration/env/)  
+- **Deploy the proxy on Kubernetes** → [Kubernetes Deployment](https://omar-massfih.github.io/keycloak-auth-proxy/deployment/kubernetes/)  
+- **Run locally in a container** → [Container Setup](https://omar-massfih.github.io/keycloak-auth-proxy/deployment/container/)
